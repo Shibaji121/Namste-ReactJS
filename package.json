@@ -1,0 +1,27 @@
+{
+  "name": "nreact",
+  "version": "1.0.0",
+  "description": "Namste React Course",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shibaji121/Namste-ReactJS.git"
+  },
+  "author": "Shibaji Sahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shibaji121/Namste-ReactJS/issues"
+  },
+  "homepage": "https://github.com/Shibaji121/Namste-ReactJS#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
