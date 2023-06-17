@@ -4,6 +4,8 @@
   "description": "Namste React Course",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -17,11 +19,16 @@
   },
   "homepage": "https://github.com/Shibaji121/Namste-ReactJS#readme",
   "devDependencies": {
+    "@babel/core": "^7.22.5",
     "parcel": "^2.9.2",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
